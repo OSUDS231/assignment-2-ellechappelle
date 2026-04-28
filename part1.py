@@ -4,7 +4,7 @@
 # Description:
 
 # task 1.1
-initial_height = float(input("Please enter initial height og the plant (in cm): "))
+initial_height = float(input("Please enter initial height of the plant (in cm): "))
 daily_growth = float(input("Please enter the daily growth rate (as a decimal): "))
 days = int(input("Please enter the number of days: "))
 
