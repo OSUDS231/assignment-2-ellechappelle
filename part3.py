@@ -12,7 +12,7 @@ boost_amount = float(input("Please enter the boost amount (in cm): "))
 # task 3.2
 days = 0
 height = initial_height
-while target_height >= height:
+while target_height > height:
     height += height * daily_growth
     if days % 7 == 6:
         height += boost_amount
