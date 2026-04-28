@@ -18,4 +18,5 @@ while target_height > height:
         height += boost_amount
     days += 1
 
+# task 3.3
 print(f"After {days} days (with a {round(boost_amount, 2)} cm boost every 7th day), the plant reaches at least {round(target_height, 2)} cm.")
