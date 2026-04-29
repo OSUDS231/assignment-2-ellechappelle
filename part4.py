@@ -1,7 +1,7 @@
 # Author: Elle Chappelle
 # GitHub Username: ellechappelle
 # Date: 04/29/2026
-# Description:
+# Description: Determines the necessary frequency of boosts ofr a plant to reach the target height within the days available given its initial height, growth rate, and boost amount
 
 # task 4.1
 initial_height = float(input("Please enter initial height of the plant (in cm): "))
@@ -27,3 +27,5 @@ if best_interval > 0:
     print(f"To reach at least {target_height} cm in {days} days, apply a {boost_amount} cm boost every {best_interval} days.")
 else:
     print(f"Target height not achievable within {days} days, even with daily boosts.")
+
+# TO-DO: CHECK IF target_height SHOULD BE INT OR FLOAT

@@ -1,7 +1,7 @@
 # Author: Elle Chappelle
 # GitHub Username: ellechappelle
 # Date: 04/29/2026
-# Description:
+# Description: Calcultaes a plant's future height by applying a fixed percentage increase each day
 
 # task 1.1
 initial_height = float(input("Please enter initial height of the plant (in cm): "))
