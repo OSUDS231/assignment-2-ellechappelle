@@ -19,7 +19,7 @@ while target_height > height:
     elapsed_days += 1
 
 # task 3.3
-print(f"After {elapsed_days} days (with a {boost_amount} cm boost every 7th day), the plant reaches at least {int(target_height)} cm.")
+print(f"After {elapsed_days} days (with a {boost_amount} cm boost every 7th day), the plant reaches at least {target_height} cm.")
 
 
 # TO-DO: CHECK IF target_height SHOULD BE INT OR FLOAT
