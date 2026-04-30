@@ -19,6 +19,3 @@ for i in range(days):
 # task 2.3
 print(f"After {days} days (with a {boost_amount} cm boost every 7th day), the plant is {round(height,2)} cm tall.")
 
-
-
-# TO_DO: CHECK ABOUT ROUNDING BOOST AMOUNT

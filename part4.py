@@ -27,5 +27,3 @@ if best_interval > 0:
     print(f"To reach at least {target_height} cm in {days} days, apply a {boost_amount} cm boost every {best_interval} days.")
 else:
     print(f"Target height not achievable within {days} days, even with daily boosts.")
-
-# TO-DO: CHECK IF target_height SHOULD BE INT OR FLOAT
